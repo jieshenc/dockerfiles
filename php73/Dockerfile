@@ -30,6 +30,9 @@ RUN yum install -y --enablerepo=remi --enablerepo=remi-php73 \
 	make \
 	unzip \
 	cronie \
+    net-tools \
+    telnet \
+    vim \
 	crontabs &&\
     yum clean all && \
     mkdir /run/php-fpm

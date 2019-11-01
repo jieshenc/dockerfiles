@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 定时任务
-#/usr/sbin/init
-#/usr/sbin/crond
+/usr/sbin/init
+/usr/sbin/crond
 
 echo "info: starting php-fpm.."
 
